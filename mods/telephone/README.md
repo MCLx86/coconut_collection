@@ -1,0 +1,1 @@
+This is a mod that adds numerous telecommunications devices, including, but not limited to, computer networks, telephone systems, and more.

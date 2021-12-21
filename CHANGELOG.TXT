@@ -1,0 +1,28 @@
+====================
+====================
+==ADSURV CHANGELOG==
+====================
+====================
+
+
+-------------------------------
+Adsurv 0.5.2137 (March 7, 2021)
+-------------------------------
+- Added some new crafting recipes.
+- Added planks.
+- Changed the texture for dirt.
+
+--------------------------
+Adsurv 0.5 (March 4, 2021)
+--------------------------
+- Added blocks from every type of metal currently in the game.
+- Added lumps.
+- Added axes and knives from steel, stone, and refined stone.
+- Completely changed textures of obsidian, cobble, apple tree log, leaves, and more.
+
+
+-----------------------------
+Adsurv 0.4 (February 2, 2019)
+-----------------------------
+- Changed selected slot hotbar texture.
+- Made a few minor changes to the textures
