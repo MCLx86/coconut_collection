@@ -11,10 +11,10 @@ minetest.register_item(":",
 		groupcaps =
 		{
 			oddly_breakable_by_hand = {times={[1]=3.50,[2]=2.00,[3]=0.70}, uses=0},
-			snappy = {times={[3]=1.00}, uses=0, maxlevel=1},
+			cracky = {times={[1]=10.00}, uses=0, maxlevel=1},
 			crumbly = {times={[2]=4.50, [3]=1.80}, uses=0, maxlevel=1},
 		},
-		damage_groups = {fleshy = 3, snappy = 2},
+		damage_groups = {cracky = 1},
 	}
 })
 
@@ -30,7 +30,7 @@ minetest.register_item("main:pickaxe_steel",
 		
 		groupcaps =
 		{
-			cracky = {times={[1]=1.80, [2]=1.00,[3]=0.50}, uses=0, maxlevel=1},
+			cracky = {times={[1]=6, [2]=1.00,[3]=0.50}, uses=0, maxlevel=1},
 			crumbly = {times={[2]=2.50, [3]=0.80}, uses=0, maxlevel=1},
 		},
 		damage_groups = {fleshy = 5, cracky = 8},

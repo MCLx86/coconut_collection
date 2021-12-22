@@ -20,13 +20,16 @@ minetest.register_node("coconut:nut", {
 			{-0.25, -0.5, -0.25, 0.25, 0, 0.25},
 		}
 	},
-	groups = {falling_node = 1, cracky = 2}
+	groups = {falling_node = 1, cracky = 1}
 })
+
 
 
 minetest.register_on_joinplayer(function(player)
 skybox.set(player, 5)
-player.set_wielded_item("minetest:pickaxe_steel")
+local wielditem = player:get_wielded_item()
+wielditem:set_name("main:pickaxe_steel")
+player:set_wielded_item(wielditem)
 end)
 
 function coconut.init()
