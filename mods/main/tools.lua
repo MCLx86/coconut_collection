@@ -18,6 +18,42 @@ minetest.register_item(":",
 	}
 })
 
+minetest.register_item("main:drill",
+{
+	type = "none",
+	wield_image = "main_drill.png",
+	inventory_image = "main_drill.png",
+	tool_capabilities =
+	{
+		max_drop_level = 1,
+		full_punch_interval = 0.8,
+		
+		groupcaps =
+		{
+			cracky = {times={[1]=2, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
+		},
+		damage_groups = {cracky = 8},
+	}
+})
+
+minetest.register_item("main:pickaxe_tier2",
+{
+	type = "none",
+	wield_image = "main_pickaxe_tier2.png",
+	inventory_image = "main_pickaxe_tier2.png",
+	tool_capabilities =
+	{
+		max_drop_level = 1,
+		full_punch_interval = 0.8,
+		
+		groupcaps =
+		{
+			cracky = {times={[1]=4, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
+		},
+		damage_groups = {cracky = 8},
+	}
+})
+
 minetest.register_item("main:pickaxe_steel",
 {
 	type = "none",
@@ -30,10 +66,9 @@ minetest.register_item("main:pickaxe_steel",
 		
 		groupcaps =
 		{
-			cracky = {times={[1]=6, [2]=1.00,[3]=0.50}, uses=0, maxlevel=1},
-			crumbly = {times={[2]=2.50, [3]=0.80}, uses=0, maxlevel=1},
+			cracky = {times={[1]=6, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
 		},
-		damage_groups = {fleshy = 5, cracky = 8},
+		damage_groups = {cracky = 8},
 	}
 })
 
@@ -41,6 +76,7 @@ minetest.register_item("main:pickaxe_stone",
 {
 	type = "none",
 	wield_image = "main_pickaxe_stone.png",
+	inventory_image = "main_pickaxe_stone.png",
 	tool_capabilities =
 	{
 		max_drop_level = 1,
@@ -48,27 +84,9 @@ minetest.register_item("main:pickaxe_stone",
 		
 		groupcaps =
 		{
-			cracky = {times={[1]=3.80, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
-			crumbly = {times={[2]=3.50, [3]=1.80}, uses=0, maxlevel=1},
+			cracky = {times={[1]=8, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
 		},
-		damage_groups = {fleshy = 4, cracky = 5},
+		damage_groups = {cracky = 5},
 	}
 })
 
-minetest.register_item("main:ax_steel",
-{
-	type = "none",
-	wield_image = "main_pickaxe_stone.png",
-	tool_capabilities =
-	{
-		max_drop_level = 1,
-		full_punch_interval = 0.4,
-		
-		groupcaps =
-		{
-			choppy = {times={[1]=3.80, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
-			crumbly = {times={[2]=3.50, [3]=1.80}, uses=0, maxlevel=1},
-		},
-		damage_groups = {fleshy = 4, cracky = 8},
-	}
-})
