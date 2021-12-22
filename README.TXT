@@ -1,4 +1,4 @@
-Coconut Collection - 12/22/2021 Beta2
+Coconut Collection - Version 1.0
 
 A game heavily inspired by "Coconut Hut" for the Ouya, it's a competetive 2-player game where you collect coconuts and sell them in order to gain cash.
 
@@ -16,7 +16,7 @@ you start out with a hatchet
 
 
 
-Note: still WIP
+
 
 Licenses: mixed (MIT and GPL 2.0)
 
@@ -26,7 +26,7 @@ main - made specifically for this game, MIT
 
 coconut - also made for this game, MIT
 
-mpd - by orwell, relicensed under MIT
+mpd - by orwell, LGPL 2.1
 
 telephone - a heavily modified version of my telephone mod that I wrote a couple of months ago, MIT
 
@@ -46,4 +46,6 @@ add Ami
 LICENSES
 --------
 
-Everything except for for mods/skybox is under the MIT license (see LICENSE.TXT)
+Everything except for the skybox mod and the mpd mod is under the MIT license (see LICENSE.TXT)
+The Skybox mod is under the GNU GPL version 2.0
+The Music Player Daemon (sometimes referred to as MPD) is licensed under the GNU LGPL version 2.1
