@@ -1,4 +1,4 @@
-Coconut Collection - 12/22/2021 Alpha6
+Coconut Collection - 12/22/2021 Beta2
 
 A game heavily inspired by "Coconut Hut" for the Ouya, it's a competetive 2-player game where you collect coconuts and sell them in order to gain cash.
 
@@ -24,6 +24,8 @@ Includes the following mods:
 main - made specifically for this game, MIT
 
 coconut - also made for this game, MIT
+
+mpd - by orwell, relicensed under MIT
 
 telephone - a heavily modified version of my telephone mod that I wrote a couple of months ago, MIT
 
