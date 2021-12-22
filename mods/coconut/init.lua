@@ -26,6 +26,7 @@ minetest.register_node("coconut:nut", {
 
 minetest.register_on_joinplayer(function(player)
 skybox.set(player, 5)
+player.set_wielded_item("minetest:pickaxe_steel")
 end)
 
 function coconut.init()

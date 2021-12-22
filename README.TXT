@@ -11,4 +11,4 @@ add Ami
 LICENSES
 --------
 
-see the LICENSE.TXT
+Everything except for for mods/skybox is under the MIT license (see LICENSE.TXT)
