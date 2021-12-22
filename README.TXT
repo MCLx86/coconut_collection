@@ -1,4 +1,4 @@
-Coconut Collection - 12/22/2021 Alpha5
+Coconut Collection - 12/22/2021 Alpha6
 
 A game heavily inspired by "Coconut Hut" for the Ouya, it's a competetive 2-player game where you collect coconuts and sell them in order to gain cash.
 
