@@ -30,14 +30,46 @@ minetest.register_biome(
 minetest.register_decoration(
    {
       deco_type = "schematic",
-      place_on = {"main:dirt_with_grass", "main:dirt", "main:sand", "main:dirt_with_swamp_grass"},
+      place_on = {"main:grass", "main:sand"},
       rotation = "random",
       sidelen = 16,
       fill_ratio = 0.004,
-      biomes = {"Grasslands", "Swamp", "Desert", "Wasteland"},
+      biomes = {"Beach"},
       flags = "place_center_x, place_center_z",
       schematic = minetest.get_modpath("main")
          .. "/schematics/main_rock_cobble_small.mts",
+      y_min = -32000,
+      y_max = 32000,
+})
+
+--Tree
+minetest.register_decoration(
+   {
+      deco_type = "schematic",
+      place_on = {"main:sand"},
+      rotation = "random",
+      sidelen = 32,
+      fill_ratio = 0.003,
+      biomes = {"Beach"},
+      flags = "place_center_x, place_center_z",
+      schematic = minetest.get_modpath("main")
+         .. "/schematics/main_tree.mts",
+      y_min = -32000,
+      y_max = 32000,
+})
+
+--Payphone
+minetest.register_decoration(
+   {
+      deco_type = "schematic",
+      place_on = {"main:sand"},
+      rotation = "random",
+      sidelen = 256,
+      fill_ratio = 0.001,
+      biomes = {"Beach"},
+      flags = "place_center_x, place_center_z",
+      schematic = minetest.get_modpath("main")
+         .. "/schematics/main_payphone.mts",
       y_min = -32000,
       y_max = 32000,
 })

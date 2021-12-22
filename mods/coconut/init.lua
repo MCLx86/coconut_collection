@@ -3,12 +3,12 @@ coconut = {}
 minetest.register_node("coconut:nut", {
 	tiles =
 	{
-		"main_cobble.png",
-		"main_cobble.png",
-		"main_cobble.png",
-		"main_cobble.png",
-		"main_cobble.png",
-		"main_cobble.png"
+		"coconut_nut.png",
+		"coconut_nut.png",
+		"coconut_nut_side.png",
+		"coconut_nut_side.png",
+		"coconut_nut_side.png",
+		"coconut_nut_side.png"
 	},
 	drawtype = "nodebox",
 	paramtype = "light",
@@ -19,7 +19,8 @@ minetest.register_node("coconut:nut", {
 		{
 			{-0.25, -0.5, -0.25, 0.25, 0, 0.25},
 		}
-	}
+	},
+	groups = {falling_node = 1, cracky = 2}
 })
 
 function coconut.init()
