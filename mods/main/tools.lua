@@ -11,7 +11,7 @@ minetest.register_item(":",
 		groupcaps =
 		{
 			oddly_breakable_by_hand = {times={[1]=3.50,[2]=2.00,[3]=0.70}, uses=0},
-			cracky = {times={[1]=10.00}, uses=0, maxlevel=1},
+			cracky = {times={[1]=12.00}, uses=0, maxlevel=1},
 			crumbly = {times={[2]=4.50, [3]=1.80}, uses=0, maxlevel=1},
 		},
 		damage_groups = {cracky = 1},
@@ -89,4 +89,23 @@ minetest.register_item("main:pickaxe_stone",
 		damage_groups = {cracky = 5},
 	}
 })
+
+minetest.register_item("main:hatchet",
+{
+	type = "none",
+	wield_image = "main_hatchet.png",
+	inventory_image = "main_hatchet.png",
+	tool_capabilities =
+	{
+		max_drop_level = 1,
+		full_punch_interval = 0.8,
+		
+		groupcaps =
+		{
+			cracky = {times={[1]=10, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
+		},
+		damage_groups = {cracky = 5},
+	}
+})
+
 

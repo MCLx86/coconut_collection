@@ -9,8 +9,9 @@ the hook first by left clicking.
 
 
 Prices:
+you start out with a hatchet
 8 coconuts = steel pickaxe
-20 coconuts = pickaxe tier2
+20 coconuts = 2nd tier pickaxe
 99 coconuts = coconut drill
 
 

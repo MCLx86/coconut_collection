@@ -27,9 +27,8 @@ minetest.register_node("coconut:nut", {
 
 minetest.register_on_joinplayer(function(player)
 skybox.set(player, 5)
-local wielditem = player:get_wielded_item()
-wielditem:set_name("main:pickaxe_steel")
-player:set_wielded_item(wielditem)
+mpd:play_song(1)
+player:set_wielded_item("main:hatchet")
 end)
 
 function coconut.init()

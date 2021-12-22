@@ -126,6 +126,24 @@ minetest.register_node("telephone:saxom_exkanto_offhook", {
 	groups = {cracky = 2},
 	
 	on_punch = function(pos, node, puncher, pointed_thing)
+		if puncher:get_wielded_item():get_name() == "coconut:nut" then
+			if puncher:get_wielded_item():get_count() >= 99 then
+				puncher:set_wielded_item("main:drill")
+			end
+			
+			if puncher:get_wielded_item():get_count() >= 20 then
+				puncher:set_wielded_item("main:pickaxe_tier2")
+			end
+			
+			if puncher:get_wielded_item():get_count() >= 8 then
+				puncher:set_wielded_item("main:pickaxe_steel")
+			end
+		
+			if puncher:get_wielded_item():get_count() >= 4 then
+				puncher:set_wielded_item("main:pickaxe_stone")
+			end
+		end
+		
 		node.name = "telephone:saxom_exkanto"
 		minetest.set_node(pos, node)
 	end,
