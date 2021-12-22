@@ -23,6 +23,11 @@ minetest.register_node("coconut:nut", {
 	groups = {falling_node = 1, cracky = 2}
 })
 
+
+minetest.register_on_joinplayer(function(player)
+skybox.set(player, 5)
+end)
+
 function coconut.init()
 	local players = minetest.get_connected_players()
     for i=1, #players do

@@ -54,7 +54,7 @@ minetest.register_decoration(
       flags = "place_center_x, place_center_z",
       schematic = minetest.get_modpath("main")
          .. "/schematics/main_tree.mts",
-      y_min = -32000,
+      y_min = 7,
       y_max = 32000,
 })
 
@@ -70,6 +70,6 @@ minetest.register_decoration(
       flags = "place_center_x, place_center_z",
       schematic = minetest.get_modpath("main")
          .. "/schematics/main_payphone.mts",
-      y_min = -32000,
+      y_min = 3,
       y_max = 32000,
 })
