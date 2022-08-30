@@ -30,7 +30,7 @@ minetest.register_item("main:drill",
 		
 		groupcaps =
 		{
-			cracky = {times={[1]=2, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
+			cracky = {times={[1]=1, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
 		},
 		damage_groups = {cracky = 8},
 	}
@@ -48,7 +48,7 @@ minetest.register_item("main:pickaxe_tier2",
 		
 		groupcaps =
 		{
-			cracky = {times={[1]=4, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
+			cracky = {times={[1]=2, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
 		},
 		damage_groups = {cracky = 8},
 	}
@@ -66,7 +66,7 @@ minetest.register_item("main:pickaxe_steel",
 		
 		groupcaps =
 		{
-			cracky = {times={[1]=6, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
+			cracky = {times={[1]=4, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
 		},
 		damage_groups = {cracky = 8},
 	}
@@ -84,7 +84,7 @@ minetest.register_item("main:pickaxe_stone",
 		
 		groupcaps =
 		{
-			cracky = {times={[1]=8, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
+			cracky = {times={[1]=6, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
 		},
 		damage_groups = {cracky = 5},
 	}
@@ -102,7 +102,7 @@ minetest.register_item("main:hatchet",
 		
 		groupcaps =
 		{
-			cracky = {times={[1]=10, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
+			cracky = {times={[1]=8, [2]=2.00,[3]=1.50}, uses=0, maxlevel=1},
 		},
 		damage_groups = {cracky = 5},
 	}
