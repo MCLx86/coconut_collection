@@ -40,7 +40,7 @@ minetest.register_node("telephone:neusonic_kxt2378", {
 	drawtype = "nodebox",
 	paramtype = "light",
 	paramtype2 = "facedir",
-	groups = {cracky = 2},
+	
 	on_punch = function(pos, node, puncher, pointed_thing)
 		node.name = "telephone:neusonic_kxt2378_offhook"
 		minetest.set_node(pos, node)
@@ -67,7 +67,7 @@ minetest.register_node("telephone:neusonic_kxt2378_offhook", {
 	drawtype = "nodebox",
 	paramtype = "light",
 	paramtype2 = "facedir",
-	groups = {cracky = 2},
+	
 	on_punch = function(pos, node, puncher, pointed_thing)
 		node.name = "telephone:neusonic_kxt2378"
 		minetest.set_node(pos, node)
@@ -95,7 +95,7 @@ minetest.register_node("telephone:neusonic_kxt2378_offhook", {
 --Saxom exKanto
 minetest.register_node("telephone:saxom_exkanto", {
 	description = "Saxom eXkanto",
-	groups = {cracky = 2},
+	
 	
 	on_punch = function(pos, node, puncher, pointed_thing)
 		node.name = "telephone:saxom_exkanto_offhook"
@@ -123,7 +123,7 @@ minetest.register_node("telephone:saxom_exkanto", {
 
 minetest.register_node("telephone:saxom_exkanto_offhook", {
 	description = "Saxom eXkanto (Off Hook)",
-	groups = {cracky = 2},
+	
 	
 	on_punch = function(pos, node, puncher, pointed_thing)
 		if puncher:get_wielded_item():get_name() == "coconut:nut" then
