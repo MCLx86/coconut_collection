@@ -1,3 +1,6 @@
+MOVED TO CUBESOFT GIT: http://git.cubesoftware.xyz:20524/MIGDYN/coconut_collection
+
+
 Coconut Collection - Version 1.0.1
 
 A game heavily inspired by "Coconut Hut" for the Ouya, it's a competetive 2-player game where you collect coconuts and sell them in order to gain cash.
