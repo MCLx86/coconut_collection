@@ -1,5 +1,6 @@
 MOVED TO CUBESOFT GIT: http://git.cubesoftware.xyz:20524/MIGDYN/coconut_collection
 
+I'm going to be honest with you - this game is dogshit and I think you should go play Juanchi Game instead.
 
 Coconut Collection - Version 1.0.1
 
